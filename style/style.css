@@ -335,6 +335,9 @@ body footer .social .sm {
   body header ul {
     gap: 47px;
   }
+  body header ul li {
+    font-size: 14px;
+  }
   body main .section-one {
     display: flex;
     flex-direction: row-reverse;
