@@ -1,0 +1,473 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 24px 108px 24px;
+}
+body header img {
+  width: 30%;
+}
+body header ul {
+  display: flex;
+  gap: 24px;
+}
+body header ul li {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #07043B;
+  list-style: none;
+}
+body main .section-one {
+  padding: 0 24px 30px 24px;
+}
+body main .section-one img {
+  width: 100%;
+}
+body main .section-one .intro h1 {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #07043B;
+  padding-top: 40px;
+}
+body main .section-one .intro p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #07043B;
+  padding-top: 24px;
+}
+body main .section-one .intro .get-started {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 32px 10px 0 10px;
+}
+body main .section-one .intro .get-started form {
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+body main .section-one .intro .get-started .email-1 {
+  height: 40px;
+  border: 0.625px solid #07043B;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+  border-radius: 3.125px;
+  text-indent: 21px;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.4px;
+  color: #07043B;
+}
+body main .section-one .intro .get-started .submit-1 {
+  height: 40px;
+  background: #2F65F8;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+  border-radius: 3.125px;
+  border: none;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+body main .section-two {
+  background: url(/images/bg-curve-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: 500% 100%;
+  background-position: center;
+  padding: 60px 24px 90px 24px;
+}
+body main .section-two img {
+  width: 100%;
+}
+body main .section-two .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body main .section-two .info h2 {
+  padding-top: 87px;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #07043B;
+}
+body main .section-two .info p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #615F7E;
+}
+body main .section-two .info .info-p1 {
+  padding-top: 24px;
+}
+body main .section-two .info .info-p2 {
+  padding-top: 14px;
+}
+body main .section-two .info .how-works {
+  padding-top: 36px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+body main .section-two .info .how-works h3 {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #3DA08F;
+  display: flex;
+  gap: 8px;
+  margin-bottom: 5px;
+}
+body main .section-two .info .how-works hr {
+  border: none;
+  height: 1px;
+  background-color: #3DA08F;
+}
+body main .section-two .quote-cont {
+  margin: 40px 20px 0 20px;
+  padding: 21px 12px 21px 26px;
+  background-color: white;
+  box-shadow: 0px 0px 8px 4px rgba(56, 56, 56, 0.0458843);
+  border-radius: 3.93258px;
+}
+body main .section-two .quote-cont img {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+body main .section-two .quote-cont h4 {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.384615px;
+  color: #07043B;
+  padding-top: 5px;
+}
+body main .section-two .quote-cont .author {
+  padding-top: 12px;
+  display: flex;
+}
+body main .section-two .quote-cont .author img {
+  width: 10%;
+  border-radius: 100%;
+  margin-right: 7.5px;
+}
+body main .section-two .quote-cont .author h5 {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.45px;
+  color: #07043B;
+}
+body main .section-two .quote-cont .author p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 7px;
+  line-height: 12px;
+  letter-spacing: 0.3px;
+  color: #07043B;
+}
+body main .section-two .quote-cont .author .name-post {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+body main .section-three {
+  background-color: #575988;
+  padding: 54px 47px 71px 47px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+body main .section-three .early-access {
+  display: flex;
+  flex-direction: column;
+}
+body main .section-three .early-access h1 {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+  text-align: center;
+}
+body main .section-three .early-access p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 16px;
+}
+body main .section-three .get-started-last {
+  display: flex;
+}
+body main .section-three .get-started-last form {
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+body main .section-three .get-started-last .email-2 {
+  width: 90%;
+  height: 32px;
+  background: #FFFFFF;
+  box-shadow: 1px 1px 3px rgba(7, 4, 59, 0.157043);
+  border-radius: 1.47059px;
+  border: none;
+  text-indent: 13px;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #07043B;
+}
+body main .section-three .get-started-last .submit-2 {
+  width: 90%;
+  height: 32px;
+  border: none;
+  background: #2F65F8;
+  box-shadow: 1px 1px 3px rgba(7, 4, 59, 0.157043);
+  border-radius: 1.47059px;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  color: #FFFFFF;
+}
+body footer {
+  padding: 65px 39px 42px 39px;
+  background-color: #07043B;
+}
+body footer .logo {
+  width: 30%;
+  margin-bottom: 22px;
+}
+body footer .contact {
+  margin-bottom: 35px;
+}
+body footer .contact h2 {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+body footer .contact h2 span {
+  height: 16px;
+}
+body footer .contact .bot-h2 {
+  padding-top: 15px;
+}
+body footer li {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+  list-style: none;
+}
+body footer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+body footer .list-one {
+  margin-bottom: 32px;
+}
+body footer .list-two {
+  margin-bottom: 32px;
+}
+body footer .social {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+body footer .social .sm {
+  display: flex;
+  justify-content: center;
+  border: 0.8px solid #DFE4F0;
+  border-radius: 100%;
+  padding: 8px;
+}
+
+/* ---- Desktop ---- */
+@media screen and (min-width: 1024px) {
+  body header {
+    padding: 44px 80px 80px 80px;
+  }
+  body header img {
+    width: 15%;
+  }
+  body header ul {
+    gap: 47px;
+  }
+  body main .section-one {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px 30px 60px;
+  }
+  body main .section-one img {
+    width: 50%;
+  }
+  body main .section-one .intro {
+    width: 40%;
+  }
+  body main .section-one .intro .get-started {
+    flex-direction: row;
+  }
+  body main .section-one .intro .get-started form {
+    flex-direction: row;
+  }
+  body main .section-one .intro .get-started .email-1 {
+    width: 65%;
+  }
+  body main .section-one .intro .get-started .submit-1 {
+    width: 35%;
+  }
+  body main .section-two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  body main .section-two img {
+    width: 40%;
+  }
+  body main .section-two .info {
+    width: 50%;
+    align-items: flex-start;
+  }
+  body main .section-two .info h2 {
+    font-size: 30px;
+    text-align: left;
+  }
+  body main .section-two .info p {
+    text-align: left;
+    color: #07043B;
+  }
+  body main .section-two .info .info-p1 {
+    padding-top: 32px;
+  }
+  body main .section-two .info .how-works h3 {
+    font-size: 15px;
+  }
+  body main .section-two .info .quote-cont {
+    width: 60%;
+    margin-left: 0;
+    padding: 21px 26px 21px 26px;
+  }
+  body main .section-two .info .quote-cont .author {
+    padding-top: 16px;
+  }
+  body main .section-two .info .quote-cont .author img {
+    margin-right: 10px;
+  }
+  body main .section-two .info .quote-cont .author .name-post h5 {
+    font-size: 12px;
+  }
+  body main .section-two .info .quote-cont .author .name-post p {
+    font-size: 10px;
+  }
+  body main .section-three {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px;
+  }
+  body main .section-three .early-access {
+    width: 50%;
+  }
+  body main .section-three .early-access h1 {
+    text-align: left;
+    font-size: 32px;
+  }
+  body main .section-three .early-access p {
+    text-align: left;
+  }
+  body main .section-three .get-started-last {
+    align-items: flex-start;
+    justify-content: center;
+    width: 40%;
+  }
+  body main .section-three .get-started-last form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  body main .section-three .get-started-last .email-2 {
+    height: 40px;
+  }
+  body main .section-three .get-started-last .submit-2 {
+    width: 35%;
+    height: 40px;
+  }
+  body footer {
+    padding: 63px 250px 20px 80px;
+  }
+  body footer .footer-inner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+  }
+  body footer .logo {
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  body footer .social .sm {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  /* ---- Active ---- */
+  .get-started .submit-1:hover {
+    cursor: pointer;
+    background: #6C9BFF;
+  }
+  .get-started-last .submit-2:hover {
+    cursor: pointer;
+    background-color: #6C9BFF;
+  }
+  footer li:hover {
+    color: #6C9BFF;
+    cursor: pointer;
+  }
+}/*# sourceMappingURL=style.css.map */
